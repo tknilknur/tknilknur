@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @tknilknur
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-tknilknur/tknilknur is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+K_G = Client(
+    "Pyrogram Bot",
+    bot_token=AAHW96z6cR0UbiWSnbQjzC3v0NMASseJB90
+    api_id=16280281
+    api_hash=AAHW96z6cR0UbiWSnbQjzC3v0NMASseJB90
+         0
+}
+@K_G.on_message(filters.command("start"))
+async def _(client, message):
+    await message.reply_text(text="Merhaba")
